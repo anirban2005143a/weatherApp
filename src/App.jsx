@@ -3,7 +3,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Hero from './components/hero';
+import Home from './components/Home';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +11,7 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Hero />
+      element: <Home />
     },
   ]);
 
