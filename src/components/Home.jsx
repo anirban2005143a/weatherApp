@@ -8,7 +8,7 @@ const Home = () => {
     const [isImagesLoaded, setisImagesLoaded] = useState(false)
     console.log(isImagesLoaded)
 
-    return (
+    return ( 
         <>
             {!isImagesLoaded && <Loader />}
             {isImagesLoaded && <Navbar />}
