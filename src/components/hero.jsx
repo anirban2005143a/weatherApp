@@ -36,8 +36,7 @@ const Hero = (props) => {
 
     return (
         <div id='hero' className={` relative ${props.isImagesLoaded ? '' : 'hidden'}`}>
-            {/* <Navbar /> */}
-            <div className=" w-[100vw] h-[100vh] overflow-hidden">
+            <div className=" h-[100vh] overflow-hidden">
                 <div className=' slide w-[400%] h-full flex'>
 
                     <div className='slide1 w-1/4 h-full bg-cover bg-blend-hard-light  bg-[rgba(0,0,0,0.6)] text-white flex justify-center items-center ' style={{ backgroundImage: `url(${bgImg1})` }}>

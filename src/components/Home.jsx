@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Hero from './hero'
 import Loader from '../utiles/Loader'
 import Navbar from '../utiles/Navbar'
+import Main from './main'
 
 const Home = () => {
 
@@ -13,6 +14,7 @@ const Home = () => {
             {!isImagesLoaded && <Loader />}
             {isImagesLoaded && <Navbar />}
             <Hero setisImagesLoaded={setisImagesLoaded} isImagesLoaded={isImagesLoaded} />
+            {isImagesLoaded && <Main/>}
         </>
     )
 }
