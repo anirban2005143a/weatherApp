@@ -4,7 +4,7 @@
 
 
 #hero .slide{
-    animation: slideHero 10s ease-in-out 0s infinite alternate;
+    animation: slideHero 30s ease-in-out 0s infinite alternate;
 }
 
 @keyframes slideHero{
